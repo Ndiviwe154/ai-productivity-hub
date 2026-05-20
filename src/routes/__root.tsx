@@ -77,10 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Automate workplace tasks with AI: draft emails, summarize meetings, plan tasks, research topics, and chat." },
       { name: "author", content: "WorkAI" },
       { property: "og:title", content: "WorkAI — AI Workplace Productivity Assistant" },
-      { property: "og:description", content: "Five AI assistants for email, meetings, task planning, research, and chat." },
+      { property: "og:description", content: "Automate workplace tasks with AI: draft emails, summarize meetings, plan tasks, research topics, and chat." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "WorkAI — AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Automate workplace tasks with AI: draft emails, summarize meetings, plan tasks, research topics, and chat." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eb60fdb2-f777-4a3c-a00b-d75152f916f4/id-preview-9d634a19--d1a1682c-6e65-42fd-aa5b-630c56d569b4.lovable.app-1779264192848.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/eb60fdb2-f777-4a3c-a00b-d75152f916f4/id-preview-9d634a19--d1a1682c-6e65-42fd-aa5b-630c56d569b4.lovable.app-1779264192848.png" },
     ],
     links: [
       {
